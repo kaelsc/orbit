@@ -5,7 +5,7 @@ import defaultTheme from "@kiwicom/orbit-components/lib/defaultTheme";
 export default {
   Example: () => {
     const divStyle: React.CSSProperties = {
-      minHeight: `${defaultTheme.orbit.heightIllustrationMedium}`,
+      minHeight: `${defaultTheme.orbit.illustrationHeightMedium}`,
       background: `${defaultTheme.orbit.backgroundBody}`,
     };
     return (
